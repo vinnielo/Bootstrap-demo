@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Bitter', serif;
+  }
+
+.navbar-brand {
+  background-color: teal;
+text-align: center;
+width: 150px;
+}
+
+body {
+  background-color: #f1f1f1;
+}
+
+/* Center website */
+.main {
+  max-width: 700px;
+  height: 900px;
+  margin: auto;
+  background-color: white;
+  
+}
+
+.content {
+  background-color: white;
+  padding: 10px;
+}
