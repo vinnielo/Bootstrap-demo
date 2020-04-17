@@ -3,11 +3,12 @@
     font-family: 'Bitter', serif;
   }
 
-.navbar-brand {
-  background-color: teal;
-text-align: center;
-width: 150px;
-}
+  .navbar-brand {
+    background-color: teal;
+  text-align: center;
+  width: 150px;
+  color: white !important;
+  }
 
 
 input[type=text], select, textarea {
