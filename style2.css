@@ -6,6 +6,12 @@
   body {
     background-color: #f1f1f1;
   }
+
+  .navbar-brand {
+    background-color: teal;
+  text-align: center;
+  width: 150px;
+  }
   
   /* Center website */
   .main {

@@ -3,6 +3,12 @@
     font-family: 'Bitter', serif;
   }
 
+.navbar-brand {
+  background-color: teal;
+text-align: center;
+width: 150px;
+}
+
 
 input[type=text], select, textarea {
   width: 100%;
