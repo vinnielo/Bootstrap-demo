@@ -17,7 +17,7 @@ body {
 /* Center website */
 .main {
   max-width: 700px;
-  height: 1105px;
+  height: auto;
   margin: auto;
   background-color: white;
   
