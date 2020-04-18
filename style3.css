@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    font-family: 'Bitter', serif;
+    font-family: 'Bitter', serif; 
   }
 
 .navbar-brand {
@@ -17,7 +17,7 @@ body {
 /* Center website */
 .main {
   max-width: 700px;
-  height: 1000px;
+  height: 1105px;
   margin: auto;
   background-color: white;
   
