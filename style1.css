@@ -48,7 +48,7 @@ input[type=submit]:hover {
  /* Center website */
   .main {
     max-width: 700px;
-    height: 850px;
+    height: auto;
     margin: auto;
     background-color: white;
     
@@ -99,10 +99,14 @@ input[type=submit]:hover {
     }
   }
 
-  footer{
+  .footer{
 
     background-color: white;
     text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
   }
   
   
