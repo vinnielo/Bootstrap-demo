@@ -75,6 +75,19 @@
     position: fixed;
   left: 0;
   bottom: 0;
-  width: 100%;
+  width: 100%;  
+  }
+  
+  img{
+    width: 200px;
+    height:200px;
+  }
+
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    background-color: teal;
+    color: white
   }
   
