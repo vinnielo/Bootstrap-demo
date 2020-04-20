@@ -46,7 +46,7 @@
     content: "";
     display: table;
     clear: both;
-  }
+  } 
   
   /* Content */
   .content {
@@ -65,6 +65,10 @@
   @media screen and (max-width: 600px) {
     .column {
       width: 100%;      
+    }
+
+    .marginfix {
+      margin-bottom: 25px;
     }
   
   }
