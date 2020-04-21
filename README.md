@@ -8,3 +8,5 @@ Portfolio page contains navbar that is fully functional and images can be clicke
 Contact page has the navbar and a contact form that is a mix from bootstrap and the CSS.
 
 each html document. Has its own CSS that has functions to override certain bootstrap elements. One element had to be labeled as important (!important) in css. all other elements are in working order and deployed. 
+
+Homework was optimized for smaller screens. it is very fluid and simple. It leaves room for additions and customization.
