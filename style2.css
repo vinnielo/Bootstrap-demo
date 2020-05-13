@@ -1,107 +1,136 @@
 * {
-    box-sizing: border-box;
-    font-family: 'Bitter', serif;
-  }
-  
-  body {
-    background-color: #f1f1f1;
-  }
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
 
-  .navbar-brand {
-    background-color: teal;
+body {
+  background-color: #f1f1f1;
+}
+
+.navbar-brand {  
   text-align: center;
   width: 150px;
   color: white !important;
-  }
-  
-  /* Center website */
-  .main {
-    max-width: 700px;
-    height: auto;
-    margin: auto;
-    background-color: white;
-    
-  }
-  
-  
-  
-  .row {
-    margin: 8px -16px;
-  }
-  
-  /* Add padding BETWEEN each column (if you want) */
-  .row,
-  .row > .column {
-    padding: 8px;
-  }
-  
-  /* Create four equal columns that floats next to each other */
+  background: linear-gradient(to top, #ffe838, #fd57bf) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  border: 2px solid black;
+  font-family: 'Pacifico', cursive;
+}
+
+h1 {
+  font-family: "Permanent Marker", cursive;
+  font-size: 40px;
+  background: linear-gradient(to top, #ffe838, #fd57bf) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+.nav-link {
+  font-family: "Permanent Marker", cursive;
+  background: linear-gradient(to top, #ffe838, #fd57bf) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+ opacity: 0.7;
+}
+
+/* Center website */
+.main {
+  max-width: 700px;
+  height: auto;
+  margin: auto;
+  background-color: white;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
   .column {
-    float: left;
-    width: 25%;
+    width: 50%;
   }
-  
-  /* Clear floats after rows */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  } 
-  
-  /* Content */
-  .content {
-    background-color: white;
-    padding: 10px;
-  }
-  
-  /* Responsive layout - makes a two column-layout instead of four columns */
-  @media screen and (max-width: 900px) {
-    .column {
-      width: 50%;
-    }
-  }
-  
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column {
-      width: 100%;      
-    }
+}
 
-    .marginfix {
-      margin-bottom: 25px;
-    }
-  
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
   }
 
-  footer{
+  .marginfix {
+    margin-bottom: 25px;
+  }
+}
 
-    background-color: white;
-    text-align: center;
-    position: fixed;
+footer {
+  background-color: white;
+  text-align: center;
+  position: fixed;
   left: 0;
   bottom: 0;
-  width: 100%;  
-  }
-  
-  img{
-    width: 200px;
-    height:200px;
-    padding:1px;
-    border:1px solid #021a40;
-    background-color:gray;
-    
-  }
+  width: 100%;
 
-  img:hover{
-    opacity: 50%;
-  }
+}
 
-  .bottom-left {
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
-    background-color: teal;
-    color: white;
+img {
+  width: 200px;
+  height: 200px;
+  padding: 1px;
+  border: 1px solid #021a40;
+  background-color: gray;
+  border-radius: 12px
+}
 
-  }
-  
+img:hover {
+  opacity: 50%;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  background-color: teal;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container{
+ margin-bottom: 50px;
+}
+.text-muted{
+ 
+  background: linear-gradient(to top, #ffe838, #fd57bf) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
