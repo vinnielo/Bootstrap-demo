@@ -75,6 +75,7 @@ h1 {
   padding: 10px;
 }
 
+
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 900px) {
   .column {
@@ -109,7 +110,8 @@ img {
   padding: 1px;
   border: 1px solid #021a40;
   background-color: gray;
-  border-radius: 12px
+  border-radius: 12px;
+  display: flex;
 }
 
 img:hover {
