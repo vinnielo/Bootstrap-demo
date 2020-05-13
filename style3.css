@@ -6,19 +6,19 @@
 .navbar-brand {  
   text-align: center;
   width: 150px;
-  color: white !important;
-  background: linear-gradient(to top, #ffe838, #fd57bf) !important;
-  -webkit-background-clip: text !important;
-  -webkit-text-fill-color: transparent !important;
+  color: white ;
+  background: linear-gradient(to top, #ffe838, #fd57bf) ;
+  -webkit-background-clip: text ;
+  -webkit-text-fill-color: transparent ;
   border: 2px solid black;
   font-family: 'Pacifico', cursive;
 }
 
 .nav-link {
   font-family: "Permanent Marker", cursive;
-  background: linear-gradient(to top, #ffe838, #fd57bf) !important;
-  -webkit-background-clip: text !important;
-  -webkit-text-fill-color: transparent !important;
+  background: linear-gradient(to top, #ffe838, #fd57bf) ;
+  -webkit-background-clip: text ;
+  -webkit-text-fill-color: transparent ;
 }
 
 .nav-link:hover,
@@ -51,9 +51,9 @@ body {
 h1, h2 {
   font-family: "Permanent Marker", cursive;
   font-size: 40px;
-  background: linear-gradient(to top, #ffe838, #fd57bf) !important;
-  -webkit-background-clip: text !important;
-  -webkit-text-fill-color: transparent !important;
+  background: linear-gradient(to top, #ffe838, #fd57bf) ;
+  -webkit-background-clip: text ;
+  -webkit-text-fill-color: transparent ;
 }
 
 p, h3 {
@@ -134,8 +134,7 @@ footer {
 }
 
 .text-muted{
-  
-  background: linear-gradient(to top, #ffe838, #fd57bf) !important;
-  -webkit-background-clip: text !important;
-  -webkit-text-fill-color: transparent !important;
+  background: linear-gradient(to top, #ffe838, #fd57bf) ;
+  -webkit-background-clip: text ;
+  -webkit-text-fill-color: transparent ;
 }
