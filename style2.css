@@ -118,6 +118,11 @@ img:hover {
   opacity: 50%;
 }
 
+img.resize{
+  width: 150px;
+  height: 150px;
+}
+
 .bottom-left {
   position: absolute;
   bottom: 8px;
