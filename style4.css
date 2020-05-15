@@ -1,107 +1,165 @@
-*{
-    margin:0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    margin: 0;
-    font-size: 25px;
-    line-height: 1.6;
-    font-family: 'Roboto', sans-serif;
-    background-image: url(Images/webdev.jpeg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    position: center;   
-    padding: 0 20px;
-   
+body {
+  margin: 0;
+  font-size: 25px;
+  line-height: 1.6;
+  font-family: "Roboto", sans-serif;
+  background-image: url(Images/webdev.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  position: center;
+  padding: 0 20px;
 }
 
-h1{
-    background: linear-gradient(to top, #ffe838, #fd57bf) ;
-    -webkit-background-clip: text ;
-    -webkit-text-fill-color: transparent ;
-    font-family: 'Pacifico', cursive;
-    font-size: 50px;
-    padding-bottom: 10px;
-    
+h1 {
+  background: linear-gradient(to top, #ffe838, #fd57bf);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Pacifico", cursive;
+  font-size: 50px;
+  padding-bottom: 10px;
 }
 
-.animatedText
-{
-    animation: fadeAndScale 1s cubic-bezier(0,1.07,.72,1.42);
-    transform-origin: center bottom;
-   
+.animatedText {
+  animation: fadeAndScale 1s cubic-bezier(0, 1.07, 0.72, 1.42);
+  transform-origin: center bottom;
 }
 
 @keyframes fadeAndScale {
-    from{
-opacity: 0;
-transform: scale3d(.75, .75, 1);
-    }
-    to{
-opacity: 1;
-transform: scale3d(1, 1, 1);
-    }
+  from {
+    opacity: 0;
+    transform: scale3d(0.75, 0.75, 1);
+  }
+  to {
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
+  }
 }
 
-p{
-    animation: fadeAndScale1 1s ease-in;
-    transform-origin: center bottom;
-    animation-delay: -.2s
+p {
+  color: white;
+  animation: fadeAndScale1 1s ease-in;
+  transform-origin: center bottom;
+  animation-delay: -0.2s;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 20px;
 }
+
 @keyframes fadeAndScale1 {
-    from{
-opacity: 0;
-transform: scale3d(.75, .75, 1);
-    }
-    to{
-opacity: 1;
-transform: scale3d(1, 1, 1);
-    }
+  from {
+    opacity: 0;
+    transform: scale3d(0.75, 0.75, 1);
+  }
+  to {
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
+  }
 }
 
-
-.button{
-color: red;
-text-decoration: none;
-border: white 1px solid;
-padding: 10px 20px;
-border-radius: 12px;
-font-size: 18px;
-animation: slide 3s ease-in;
-transform-origin: center bottom;
-animation-delay: -.2s;
+.button {
+  color: red;
+  text-decoration: none;
+  border: white 1px solid;
+  padding: 10px 20px;
+  border-radius: 12px;
+  font-size: 18px;
+  animation: slide 3s ease-in;
+  transform-origin: center bottom;
+  animation-delay: -0.2s;
+  display: block;
+  width: 200px;
+  max-width: 100%;
+  margin: 0 auto;
+  margin-bottom: 0;
+  overflow: hidden;
+  position: relative;
+  transform: translatez(0);
+  text-decoration: none;
+  box-sizing: border-box;
+  font-size: 24px;
+  font-weight: normal;
+  box-shadow: 0 9px 18px rgba(0, 0, 0, 0.2);
 }
 
-@keyframes slide{
-    from{
-opacity: 0;
-transform: scale3d(.75, .75, 1);
-    }
-    to{
-opacity: 1;
-transform: scale3d(1, 1, 1);
-    }
+@keyframes slide {
+  from {
+    opacity: 0;
+    transform: scale3d(0.75, 0.75, 1);
+  }
+  to {
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
+  }
 }
 
-
-
-.button:hover{
-    background: darkblue;
-    color: white;
+.instagram {
+  text-align: center;
+  border-radius: 50px;
+  padding: 17px;
+  color: white;
+  background: #bd3381;
+  transition: all 0.1s ease-out 0s;
 }
 
-p{
-    color: white;
-    font-size: 20px;
-    margin-bottom: 20px ;
+.gradient {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  bottom: auto;
+  margin: auto;
+  z-index: -1;
+  background: radial-gradient(
+    90px circle at top center,
+    rgba(238, 88, 63, 0.8) 30%,
+    rgba(255, 255, 255, 0)
+  );
+  transition: all 0s ease-out 0s;
+  transform: translatex(-140px);
+  animation: 10s linear 0s infinite move;
 }
 
-
-
+@keyframes move {
+  0% {
+    transform: translatex(-140px);
+  }
+  25% {
+    transform: translatex(140px);
+    opacity: 0.3;
+  }
+  50% {
+    transform: translatex(140px);
+    opacity: 1;
+    background: radial-gradient(
+      90px circle at bottom center,
+      rgba(238, 88, 63, 0.5) 30%,
+      rgba(255, 255, 255, 0)
+    );
+  }
+  75% {
+    transform: translatex(-140px);
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+    transform: translatex(-140px);
+    background: radial-gradient(
+      90px circle at top center,
+      rgba(238, 88, 63, 0.5) 30%,
+      rgba(255, 255, 255, 0)
+    );
+  }
+}
