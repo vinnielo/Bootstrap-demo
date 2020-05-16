@@ -63,7 +63,21 @@ p, h3 {
 
 }
 
-.fa {
+
+
+.fa-github {
+  margin: 5px 2px !important; 
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  
+  
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  border-radius: 12px;
   padding: 20px;
   font-size: 30px;
   width: 50px;
@@ -72,22 +86,16 @@ p, h3 {
   margin: 5px 2px;
 }
 
-.fa-facebook {
-  background: #3b5998;
-  color: white;
-  border-radius: 12px;
-}
-
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
-  border-radius: 12px;
-}
-
 .fa-instagram {
   background: #125688;
   color: white;
   border-radius: 12px;
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
 }
 
 .fa:hover {

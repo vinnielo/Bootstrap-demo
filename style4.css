@@ -109,7 +109,7 @@ p {
   padding: 17px;
   color: white;
   background: #bd3381;
-  transition: all 0.1s ease-out 0s;
+  transition: all 0.2s ease-out 0.2s;
 }
 
 .gradient {
@@ -127,9 +127,9 @@ p {
     rgba(238, 88, 63, 0.8) 30%,
     rgba(255, 255, 255, 0)
   );
-  transition: all 0s ease-out 0s;
+  transition: all 0.2s ease-out 0.2s;
   transform: translatex(-140px);
-  animation: 10s linear 0s infinite move;
+  animation: 4s linear 0s infinite move;
 }
 
 @keyframes move {
